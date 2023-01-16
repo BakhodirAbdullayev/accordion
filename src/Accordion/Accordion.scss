@@ -7,7 +7,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: #298b84;
+  background-color: #4fa8a2;
   display: grid;
   place-items: center;
 }
@@ -28,11 +28,9 @@
 
 .question {
   width: 90%;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   background-color: rgba(256, 256, 256, 0.4);
-
-  transition: all .5s ;
 }
 
 .questionHead {
@@ -43,7 +41,6 @@
   font-size: 18px;
   font-weight: 600;
   color: rgb(207, 207, 207);
-  margin-bottom: 10px;
 
   .icon {
     border: none;
@@ -65,6 +62,7 @@
   }
 }
 .questionBody {
+  margin-top: 15px;
   font-size: 16px;
   padding: 0 20px;
   color: rgb(28, 25, 25);
