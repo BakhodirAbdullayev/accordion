@@ -14,7 +14,8 @@ const Question = ({ title, text }) => {
           <i className="fa-solid fa-chevron-down"></i>
         </button>
       </div>
-      {toggle ? <div className="questionBody">{text}</div> : null}
+      {/* {toggle ? <div className="questionBody">{text}</div> : null} */}
+      <div className={ toggle ? 'questionBody test1' : 'questionBody test2' } >{text}</div>
     </div>
   );
 };
